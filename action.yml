@@ -10,10 +10,10 @@ inputs:
         required: true
     task:
         description: 'Task definition name to be updated'
-        required: true
+        required: false
     container:
         description: 'Container name to be updated'
-        required: true
+        required: false
     envfile:
         description: 'Env file path'
         required: false
